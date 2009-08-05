@@ -1,3 +1,8 @@
+
+* move calls to Marshal.dump outside with_server(). this fixes an issue where,
+  when running with multiple servers, and one of those servers fails, data being
+  put into memcache gets marshaled twice. (Rajiv Aaron Manglani rajiv@brontes3d.com)
+
 = 1.7.4 (2009-06-09)
 
 * Fix issue with raising timeout errors.
