@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
 	s.name = 'memcache-client'
-	s.version = '1.7.4'
+	s.version = '1.7.4-brontes1'
 	s.authors = ['Eric Hodel', 'Robert Cottrell', 'Mike Perham']
 	s.email = 'mperham@gmail.com'
-	s.homepage = 'http://github.com/mperham/memcache-client'
+	s.homepage = 'http://github.com/brontes3d/memcache-client'
 	s.summary = 'A Ruby library for accessing memcached.'
 	s.description = s.summary
 	s.rubyforge_project = 'seattlerb'
